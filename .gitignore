@@ -1,0 +1,12 @@
+# PyInstaller çıktıları
+dist/
+build/
+*.spec
+
+# Python çalışma dosyaları
+__pycache__/
+*.pyc
+
+# Sanal ortam (eğer varsa)
+venv/
+.venv/
