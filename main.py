@@ -117,7 +117,7 @@ def calculate_holding():
 # --- UI Setup ---
 
 root = tk.Tk()
-root.title("Pilot Assistant - Hasan ÜTEBAY")
+root.title("AvioCalc - Hasan ÜTEBAY")
 root.geometry("450x750")
 
 BG_COLOR, CARD_COLOR, TEXT_COLOR = "#2f3640", "#353b48", "#dcdde1"
