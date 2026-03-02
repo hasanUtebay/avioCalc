@@ -44,7 +44,7 @@ Clone the repository:
 
 ```
 Bash
-git clone https://github.com/yourusername/aviocalc.git
+git clone https://github.com/hasanUtebay/aviocalc.git
 Install the required dependency:
 ```
 
