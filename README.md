@@ -1,15 +1,76 @@
-🚀 Technical Stack
-Language: Python 3.x
+# AvioCalc - Aviation Flight Computer
 
-GUI Framework: Tkinter (Custom Dark Mode Theme)
+AvioCalc is a Python-based desktop application designed to assist pilots and flight simulator enthusiasts with critical in-flight calculations. Developed with a modern GUI, it simplifies descent planning and holding pattern entry analysis.
 
-Image Processing: Pillow (PIL)
+## 🚀 Features
 
-Mathematical Engine: High-precision trigonometric and aeronautical formulas.
+### 📉 Descent Computer
 
-🛠️ Functionalities
-Holding Sector Recognition: Automatically determines the correct entry sector based on current heading and outbound course.
+Calculate your descent profile accurately to ensure you reach your target altitude at the right time and distance.
 
-Smart Input Masking: Converts inputs on-the-fly (e.g., 35000 to 35,000) to match real cockpit instrumentation standards.
+Required Net VS: Calculates the exact Vertical Speed (fpm) needed.
 
-Error Handling: Robust validation for decimal separators (both . and , support) ensuring crash-free operation during critical flight phases.
+Set VS: Suggests a rounded Vertical Speed for easier autopilot input.
+
+Start Descent Point: Calculates the exact distance (NM) where you should begin your descent.
+
+### 🔄 Holding Computer
+
+Analyze the best way to enter a holding pattern based on your current heading and the holding course.
+
+Entry Types: Identifies Direct, Parallel, or Teardrop entries.
+
+Standard & Non-Standard: Supports both Right-hand (Standard) and Left-hand (Non-Standard) turns.
+
+Step-by-Step Instructions: Provides clear, textual instructions for both the entry phase and the holding phase.
+
+### 🛠️ Installation
+
+Prerequisites
+
+- Python 3.x
+
+- Pillow (PIL) library for image processing.
+
+- Tkinter (usually comes with Python).
+
+### Setup
+
+Clone the repository:
+
+```
+Bash
+git clone https://github.com/yourusername/aviocalc.git
+Install the required dependency:
+```
+
+```
+Bash
+pip install Pillow
+Run the application:
+```
+
+```
+Bash
+python main.py
+```
+
+### 🖥️ User Interface
+
+The application features a dark-themed, user-friendly interface:
+
+Modern Aesthetics: Dark mode design with high-contrast accent colors for readability.
+
+Smart Input Validation: Supports various number formats (commas/periods) and prevents invalid data entry.
+
+Responsive Feedback: Real-time warnings if altitude logic is incorrect (e.g., target higher than current).
+
+### 👨‍💻 Developer
+
+Created by Hasan ÜTEBAY.
+
+This tool is designed for flight simulation and educational purposes. Always cross-check with official aeronautical charts and instruments during real-world flight operations.
+
+### 📄 License
+
+This project is open-source and available under the MIT License.
