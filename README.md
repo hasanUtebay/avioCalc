@@ -43,19 +43,18 @@ Prerequisites
 Clone the repository:
 
 ```
-Bash
 git clone https://github.com/hasanUtebay/aviocalc.git
+```
+
 Install the required dependency:
-```
 
 ```
-Bash
 pip install Pillow
-Run the application:
 ```
 
+Run the application:
+
 ```
-Bash
 python main.py
 ```
 
