@@ -14,6 +14,8 @@ Set VS: Suggests a rounded Vertical Speed for easier autopilot input.
 
 Start Descent Point: Calculates the exact distance (NM) where you should begin your descent.
 
+![Descent Computer](/descent_computer.png "Descent Computer")
+
 ### 🔄 Holding Computer
 
 Analyze the best way to enter a holding pattern based on your current heading and the holding course.
@@ -23,6 +25,8 @@ Entry Types: Identifies Direct, Parallel, or Teardrop entries.
 Standard & Non-Standard: Supports both Right-hand (Standard) and Left-hand (Non-Standard) turns.
 
 Step-by-Step Instructions: Provides clear, textual instructions for both the entry phase and the holding phase.
+
+![Holding Computer](/holding_computer.png "Holding Computer")
 
 ### 🛠️ Installation
 
